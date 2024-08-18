@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição do Tenant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="110694.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="container">
+        <div class="form-container">
+            <form id="tenantForm">
+                <div class="form-group">
+                    <label for="name">Nome da Empresa:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="plan">Selecione o Plano:</label>
+                    <select id="plan" name="plan" class="styled-select" required>
+                        <option value="1">1 Conexão e 1 Usuário</option>
+                        <option value="2">2 Conexões e 2 Usuários</option>
+                        <option value="3">3 Conexões e 3 Usuários</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <div style="position: relative;">
+                        <input type="password" id="password" name="password" minlength="5" required>
+                        <span id="togglePassword" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">🔓</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="userName">Nome do Usuário:</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                <div class="form-group">
+                    <label for="identity">CPF / CNPJ / Identificador:</label>
+                    <input type="text" id="identity" name="identity" required>
+                </div>
+                <input type="hidden" id="profile" name="profile" value="admin">
+                <input type="hidden" id="trial" name="trial" value="enabled">
+                <input type="hidden" id="trialPeriod" name="trialPeriod" value=3>
+                <div class="form-group">
+                    <label for="acceptTerms">
+                        <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+                        Aceitar Termos
+                    </label>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

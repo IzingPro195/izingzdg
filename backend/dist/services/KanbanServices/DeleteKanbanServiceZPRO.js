@@ -1,0 +1,159 @@
+'use strict';
+const _0x5355c9 = _0x2627;
+(function (_0x5bfdab, _0x578785) {
+    const _0x4a1f42 = _0x2627, _0x3b656e = _0x5bfdab();
+    while (!![]) {
+        try {
+            const _0x3bf20e = parseInt(_0x4a1f42(0x1d3)) / (0x1ec0 + 0xc63 * 0x3 + -0x43e8) + parseInt(_0x4a1f42(0x1df)) / (-0xcf5 + -0x7c * -0x37 + -0x48f * 0x3) + parseInt(_0x4a1f42(0x1c8)) / (-0x2cf * -0xb + 0x1348 * 0x1 + 0x2 * -0x1915) * (-parseInt(_0x4a1f42(0x1cb)) / (0x5fc * -0x5 + -0xa * 0xc + 0x1e68)) + -parseInt(_0x4a1f42(0x1ba)) / (-0x1246 + 0x1 * 0x9a7 + -0x9e * -0xe) * (-parseInt(_0x4a1f42(0x1dc)) / (-0x184 + 0xe4d + 0xcc3 * -0x1)) + -parseInt(_0x4a1f42(0x1dd)) / (-0x5c2 + -0x19 * 0x101 + 0x1ee2) * (parseInt(_0x4a1f42(0x1d2)) / (0xa81 * 0x3 + 0x1ba6 + -0x3b21)) + -parseInt(_0x4a1f42(0x1b7)) / (-0xc85 * -0x1 + 0x36 * 0x57 + -0x1ed6) + -parseInt(_0x4a1f42(0x1d5)) / (-0xd0f + -0x21fd + 0x2f16);
+            if (_0x3bf20e === _0x578785)
+                break;
+            else
+                _0x3b656e['push'](_0x3b656e['shift']());
+        } catch (_0xa7a3a7) {
+            _0x3b656e['push'](_0x3b656e['shift']());
+        }
+    }
+}(_0x3e2b, 0xbba81 + -0x5394a * -0x1 + 0xb3 * -0xab7));
+function _0x3e2b() {
+    const _0x2cb86c = [
+        'defineProp',
+        'throw',
+        '11765TgvijU',
+        'destroy',
+        'dsyuy',
+        'done',
+        'tenantId',
+        'findOne',
+        'T_FOUND',
+        'rs/AppErro',
+        'value',
+        'sPQLM',
+        '__awaiter',
+        'apply',
+        'next',
+        '_CONFIG_NO',
+        '54FyKFRe',
+        'then',
+        '../../erro',
+        '225956VWVqxR',
+        'mARMJ',
+        'rLNVz',
+        'rZPRO',
+        'ls/KanbanZ',
+        '__esModule',
+        'aFERy',
+        '18864BgUGWE',
+        '724053YgJYmQ',
+        'where',
+        '770bYpRtW',
+        'PRO',
+        'iALOz',
+        'fault',
+        'default',
+        'reKxF',
+        'buGZR',
+        '1728iiZhlS',
+        '252pTFyuL',
+        '__importDe',
+        '1202556KyDnRy',
+        'WABja',
+        'ERR_KANBAN',
+        'erty',
+        '../../mode',
+        '2531142lMIzdK'
+    ];
+    _0x3e2b = function () {
+        return _0x2cb86c;
+    };
+    return _0x3e2b();
+}
+function _0x2627(_0x1c5e03, _0x437794) {
+    const _0x5c7592 = _0x3e2b();
+    return _0x2627 = function (_0xa2a171, _0x2c4e48) {
+        _0xa2a171 = _0xa2a171 - (-0x1 * -0xaa3 + -0x6cc + -0x221);
+        let _0x15a697 = _0x5c7592[_0xa2a171];
+        return _0x15a697;
+    }, _0x2627(_0x1c5e03, _0x437794);
+}
+var __awaiter = this && this[_0x5355c9(0x1c4)] || function (_0x289a9c, _0x5aba44, _0x331505, _0x21bf5a) {
+        const _0x279533 = _0x5355c9, _0x1b7d5b = {
+                'iALOz': function (_0x37594b, _0x4c546a) {
+                    return _0x37594b(_0x4c546a);
+                },
+                'buGZR': function (_0x4f8bec, _0x4c39cc) {
+                    return _0x4f8bec instanceof _0x4c39cc;
+                },
+                'rLNVz': function (_0x303ede, _0x114717) {
+                    return _0x303ede(_0x114717);
+                },
+                'WABja': function (_0x245225, _0xbc213f) {
+                    return _0x245225(_0xbc213f);
+                },
+                'mARMJ': _0x279533(0x1b9),
+                'aFERy': function (_0x1d774a, _0x13e2fb) {
+                    return _0x1d774a(_0x13e2fb);
+                }
+            };
+        function _0x3a04da(_0x1b9ce1) {
+            const _0x34933a = _0x279533, _0x68e0ad = {
+                    'sPQLM': function (_0x2bde13, _0x3fd53b) {
+                        const _0x1f0432 = _0x2627;
+                        return _0x1b7d5b[_0x1f0432(0x1d7)](_0x2bde13, _0x3fd53b);
+                    }
+                };
+            return _0x1b7d5b[_0x34933a(0x1db)](_0x1b9ce1, _0x331505) ? _0x1b9ce1 : new _0x331505(function (_0x1a9382) {
+                const _0x4f736e = _0x34933a;
+                _0x68e0ad[_0x4f736e(0x1c3)](_0x1a9382, _0x1b9ce1);
+            });
+        }
+        return new (_0x331505 || (_0x331505 = Promise))(function (_0x26ac3c, _0x35a68d) {
+            const _0x13902a = _0x279533, _0x576daf = {
+                    'dsyuy': function (_0xe1b3bd, _0x5c0bae) {
+                        const _0x2b31f9 = _0x2627;
+                        return _0x1b7d5b[_0x2b31f9(0x1cd)](_0xe1b3bd, _0x5c0bae);
+                    }
+                };
+            function _0x1fe788(_0x556e7d) {
+                const _0x3bc210 = _0x2627;
+                try {
+                    _0x1b7d5b[_0x3bc210(0x1cd)](_0x2da571, _0x21bf5a[_0x3bc210(0x1c6)](_0x556e7d));
+                } catch (_0x3035ec) {
+                    _0x1b7d5b[_0x3bc210(0x1d7)](_0x35a68d, _0x3035ec);
+                }
+            }
+            function _0x54309d(_0x170816) {
+                const _0x56dba3 = _0x2627;
+                try {
+                    _0x1b7d5b[_0x56dba3(0x1e0)](_0x2da571, _0x21bf5a[_0x1b7d5b[_0x56dba3(0x1cc)]](_0x170816));
+                } catch (_0x473fe8) {
+                    _0x1b7d5b[_0x56dba3(0x1d1)](_0x35a68d, _0x473fe8);
+                }
+            }
+            function _0x2da571(_0x5df7aa) {
+                const _0x85218a = _0x2627;
+                _0x5df7aa[_0x85218a(0x1bd)] ? _0x576daf[_0x85218a(0x1bc)](_0x26ac3c, _0x5df7aa[_0x85218a(0x1c2)]) : _0x576daf[_0x85218a(0x1bc)](_0x3a04da, _0x5df7aa[_0x85218a(0x1c2)])[_0x85218a(0x1c9)](_0x1fe788, _0x54309d);
+            }
+            _0x1b7d5b[_0x13902a(0x1d7)](_0x2da571, (_0x21bf5a = _0x21bf5a[_0x13902a(0x1c5)](_0x289a9c, _0x5aba44 || []))[_0x13902a(0x1c6)]());
+        });
+    }, __importDefault = this && this[_0x5355c9(0x1de) + _0x5355c9(0x1d8)] || function (_0xcabe53) {
+        const _0x14201c = _0x5355c9;
+        return _0xcabe53 && _0xcabe53[_0x14201c(0x1d0)] ? _0xcabe53 : { 'default': _0xcabe53 };
+    };
+const _0x50a47d = {};
+_0x50a47d[_0x5355c9(0x1c2)] = !![], Object[_0x5355c9(0x1b8) + _0x5355c9(0x1e2)](exports, _0x5355c9(0x1d0), _0x50a47d);
+const AppErrorZPRO_1 = __importDefault(require(_0x5355c9(0x1ca) + _0x5355c9(0x1c1) + _0x5355c9(0x1ce))), KanbanZPRO_1 = __importDefault(require(_0x5355c9(0x1b6) + _0x5355c9(0x1cf) + _0x5355c9(0x1d6))), DeleteKanbanConfigService = ({
+        kanbanId: _0x4c6377,
+        tenantId: _0x326e3b
+    }) => __awaiter(void (0x1 * 0x2119 + -0x7c4 + -0x511 * 0x5), void (-0x29 * -0x6 + -0x255a + 0x2464), void (-0x1397 + 0x11f + -0x4 * -0x49e), function* () {
+        const _0x47d409 = _0x5355c9, _0x52c50d = {};
+        _0x52c50d[_0x47d409(0x1da)] = _0x47d409(0x1e1) + _0x47d409(0x1c7) + _0x47d409(0x1c0);
+        const _0x5247fa = _0x52c50d, _0x425e39 = {};
+        _0x425e39['id'] = _0x4c6377, _0x425e39[_0x47d409(0x1be)] = _0x326e3b;
+        const _0xad9e93 = {};
+        _0xad9e93[_0x47d409(0x1d4)] = _0x425e39;
+        const _0x4adde7 = yield KanbanZPRO_1[_0x47d409(0x1d9)][_0x47d409(0x1bf)](_0xad9e93);
+        if (!_0x4adde7)
+            throw new AppErrorZPRO_1[(_0x47d409(0x1d9))](_0x5247fa[_0x47d409(0x1da)], 0x1888 + 0x1c42 + 0xa * -0x51f);
+        yield _0x4adde7[_0x47d409(0x1bb)]();
+    });
+exports[_0x5355c9(0x1d9)] = DeleteKanbanConfigService;

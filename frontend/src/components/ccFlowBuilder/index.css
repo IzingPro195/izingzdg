@@ -1,0 +1,220 @@
+/* Variáveis CSS */
+:root {
+    --primary-color: #5c67f2;
+    --hover-color: #f5f5f9;
+    --border-color: #E0E3E7;
+    --text-color: #4A4A4A;
+    --success-color: #25d366;
+    --warning-color: #ffeb3b;
+    --error-color: #f44336;
+    --font-size: 14px;
+  }
+  
+  /* Estilos Globais */
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+  }
+  
+  /* Contêiner do Canvas */
+  #efContainer {
+    position: relative;
+    overflow: scroll;
+    flex: 1;
+  }
+  
+  /* Barra de Ferramentas Superior */
+  .ef-tooltar {
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 42px;
+    line-height: 42px;
+    z-index: 3;
+    border-bottom: 1px solid #DADCE0;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Overlay */
+  .jtk-overlay {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: color 0.3s;
+  }
+  
+  /* Menu de Nós */
+  .ef-node-pmenu {
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+    width: 225px;
+    display: block;
+    font-weight: bold;
+    color: var(--text-color);
+    padding-left: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .ef-node-pmenu:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .ef-node-menu-li {
+    color: #565758;
+    width: 150px;
+    border: 1px dashed var(--border-color);
+    margin: 5px 0;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border 0.3s, padding-left 0.3s;
+  }
+  
+  .ef-node-menu-li:hover {
+    cursor: move;
+    background-color: var(--hover-color);
+    border-left: 4px solid var(--primary-color);
+    border: 1px dashed var(--primary-color);
+    padding-left: 5px;
+  }
+  
+  .ef-node-menu-ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  /* Contêiner de Nós */
+  .ef-node-container {
+    position: absolute;
+    display: flex;
+    min-width: 170px;
+    max-width: 370px;
+    min-height: 32px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+  }
+  
+  .ef-node-container:hover {
+    cursor: move;
+    background-color: var(--hover-color);
+    border: 1px dashed var(--primary-color);
+  }
+  
+  /* Estilo de Nós Ativos */
+  .ef-node-active {
+    background-color: var(--hover-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  /* Ícone à Esquerda do Nó */
+  .ef-node-left-ico {
+    line-height: 32px;
+    margin-left: 8px;
+    align-self: center;
+    font-size: 26px;
+    transition: transform 0.3s;
+  }
+  
+  .ef-node-left-ico:hover {
+    cursor: crosshair;
+    transform: scale(1.1);
+  }
+  
+  /* Texto do Nó */
+  .ef-node-text {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    align-self: center;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Ícone à Direita do Nó */
+  .ef-node-right-ico {
+    line-height: 32px;
+    position: absolute;
+    right: 5px;
+    color: var(--success-color);
+    cursor: default;
+  }
+  
+  /* Estados dos Nós */
+  .el-node-state-success {
+    color: var(--success-color);
+  }
+  
+  .el-node-state-error {
+    color: var(--error-color);
+  }
+  
+  .el-node-state-warning {
+    color: var(--warning-color);
+  }
+  
+  .el-node-state-running {
+    color: var(--success-color);
+  }
+  
+  /* Cabeçalho do Formulário de Nó */
+  .ef-node-form-header {
+    height: 32px;
+    border-top: 1px solid #dce3e8;
+    border-bottom: 1px solid #dce3e8;
+    background: #F1F3F4;
+    color: #000;
+    line-height: 32px;
+    padding-left: 12px;
+    font-size: var(--font-size);
+  }
+  
+  /* Label de Linha */
+  .jtk-overlay.flowLabel:not(.aLabel) {
+    padding: 4px 10px;
+    background-color: white;
+    color: #565758 !important;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+  
+  /* Label Vazia */
+  .emptyFlowLabel {}
+  
+  /* Estilos de Conectores */
+  .ef-dot {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .ef-dot-hover {
+    background-color: red;
+  }
+  
+  .ef-rectangle {
+    background-color: var(--primary-color);
+  }
+  
+  .ef-rectangle-hover {
+    background-color: red;
+  }
+  
+  .ef-img {}
+  
+  .ef-img-hover {}
+  
+  .ef-drop-hover {
+    border: 1px dashed var(--primary-color);
+  }
+  
+  .flowHeightDefault {
+    height: calc(100vh - 135px);
+  }
+  

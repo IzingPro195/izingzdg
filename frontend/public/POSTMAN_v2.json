@@ -1,0 +1,985 @@
+{
+	"info": {
+		"_postman_id": "c7f45d96-3e44-4d6c-a25d-f2c5c8de04e7",
+		"name": "Postman v3.x.x.x",
+		"description": "API v2.x.x.x",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21521412"
+	},
+	"item": [
+		{
+			"name": "SendMessageParams",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/params/?body=A%20mensagem%20desejadaa&number=5515998566622&externalKey=ID_UNICA_DO_SISTEMA_CLIENTE&bearertoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"params",
+						""
+					],
+					"query": [
+						{
+							"key": "body",
+							"value": "A%20mensagem%20desejadaa"
+						},
+						{
+							"key": "number",
+							"value": "5515998566622"
+						},
+						{
+							"key": "externalKey",
+							"value": "ID_UNICA_DO_SISTEMA_CLIENTE"
+						},
+						{
+							"key": "bearertoken",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPIFile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "media",
+							"type": "file",
+							"src": "/C:/Users/Pedro/Downloads/cps_vanderlei.docx"
+						},
+						{
+							"key": "body",
+							"value": "Mensagem de teste 2",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "5515998566622",
+							"type": "text"
+						},
+						{
+							"key": "externalKey",
+							"value": "externalKeydd211",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTicketFile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "media",
+							"type": "file",
+							"src": "/C:/Users/Pedro/Downloads/cps_vanderlei.docx"
+						},
+						{
+							"key": "body",
+							"value": "Mensagem de teste 2",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "5515998566622",
+							"type": "text"
+						},
+						{
+							"key": "externalKey",
+							"value": "externalKeydd211",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a/createTicket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a",
+						"createTicket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendGroupMessageAPIFile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTQyNDExODIsImV4cCI6MTc3NzMxMzE4Mn0.Ep8N_FV1w-AmoFeu-0C9iDD6hVSVmb_oZlzob-lFIrc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "media",
+							"type": "file",
+							"src": [
+								"/C:/Users/Pedro/Downloads/cps_vanderlei.docx",
+								"/C:/Users/pedro/OneDrive/Desktop/izing-passaporte/frontend/public/bg-wchats.png"
+							]
+						},
+						{
+							"key": "body",
+							"value": "Mensagem de teste 2",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "5515998566622",
+							"type": "text"
+						},
+						{
+							"key": "externalKey",
+							"value": "externalKeydd211",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/6b756d45-89f7-444f-899e-68ed4e952680/group",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"6b756d45-89f7-444f-899e-68ed4e952680",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPIFileURL",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mediaUrl\": \"https://comunidadezdg.com.br/wp-content/uploads/2022/07/icon100.png\",\r\n    \"body\": \"A mensagem desejada\",\r\n    \"number\": \"5515998566622\",\r\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/url",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPIFileURLGroup",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mediaUrl\": \"https://comunidadezdg.com.br/wp-content/uploads/2022/07/icon100.png\",\r\n    \"body\": \"A mensagem desejada\",\r\n    \"number\": \"5515998566622\",\r\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/groupMediaUrl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"groupMediaUrl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPIText",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTI2MDUzNDYsImV4cCI6MTc3NTY3NzM0Nn0.ILXyz7W8TcWldhDPiu5vHjewqapTl6xyuQknL_bEYGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": \"A mensagem desejada\",\n    \"number\": \"553588754197\",\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTicket",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTI2MDUzNDYsImV4cCI6MTc3NTY3NzM0Nn0.ILXyz7W8TcWldhDPiu5vHjewqapTl6xyuQknL_bEYGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": \"A mensagem desejada\",\n    \"number\": \"553588754197\",\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a/createTicket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a",
+						"createTicket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPITextBase64",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTI2MDUzNDYsImV4cCI6MTc3NTY3NzM0Nn0.ILXyz7W8TcWldhDPiu5vHjewqapTl6xyuQknL_bEYGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": \"A mensagem desejada\",\n    \"number\": \"553588754197\",\n    \"base64Data\": \"iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==\",\n    \"mimeType\": \"image/png\",\n    \"fileName\": \"exemplo_imagem\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a/base64",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a",
+						"base64"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendGroupMessageAPIText",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTQyNDExODIsImV4cCI6MTc3NzMxMzE4Mn0.Ep8N_FV1w-AmoFeu-0C9iDD6hVSVmb_oZlzob-lFIrc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"body\": \"A mensagem desejada\",\n    \"number\": \"5515998566622\",\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/6b756d45-89f7-444f-899e-68ed4e952680/group",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"6b756d45-89f7-444f-899e-68ed4e952680",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendMessageAPIVoice",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"audio\": \"https://comunidadezdg.com.br/wp-content/uploads/2022/12/audio.ogg\",\n    \"number\": \"5515998566622\",\n    \"externalKey\": \"ID_UNICA_DO_SISTEMA_CLIENTE_PARA_EXECUTAR_UMA_ACAO_COM_WEBHOOK\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/voice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"voice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetQueue",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ticketId\": 4,\n    \"queueId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/updatequeue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"updatequeue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetTicketInfo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTI2MDUzNDYsImV4cCI6MTc3NTY3NzM0Nn0.ILXyz7W8TcWldhDPiu5vHjewqapTl6xyuQknL_bEYGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ticketId\": 1003,\n    \"status\": \"open\",\n    \"userId\": 1,\n    \"queueId\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a/updateticketinfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a",
+						"updateticketinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetTag",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ticketId\": 4,\n    \"tag\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/updatetag",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"updatetag"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StoreTenant",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "$]Vi9AOv*k%V(aL.W:2ZibUx}we#[]teDgi^pm[.6j~DU6EuPxSbiPbD*VK#YRlf",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"active\",\n  \"name\": \"Empresa Exemplo\",\n  \"maxUsers\": 3,\n  \"maxConnections\": 3,\n  \"acceptTerms\": true,\n  \"email\": \"user@example.com\",\n  \"password\": \"securePassword123!\",\n  \"userName\": \"Pedro Bastos\",\n  \"profile\": \"admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/tenantApiStoreTenant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"tenantApiStoreTenant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTenant",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "^[W-GR@>>FE1)MtF{Y>AJEKpg2p>bc2hsoO48t,>cBzQXG%7[YfoseLJ5%zQeLQW",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\": \"active\",\n  \"identity\": \"07122989674\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/tenantApiUpdateTenant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"tenantApiUpdateTenant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowTicketInformation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\":\"551191234567\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7e862d5e-87a3-4e3c-80e7-6c26301f11d7/showticket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7e862d5e-87a3-4e3c-80e7-6c26301f11d7",
+						"showticket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowChannelInformation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MTI2MDUzNDYsImV4cCI6MTc3NTY3NzM0Nn0.ILXyz7W8TcWldhDPiu5vHjewqapTl6xyuQknL_bEYGo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\":\"553591046225\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/97de0cfb-6cbc-4def-8c34-150abb3e042a/showChannel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"97de0cfb-6cbc-4def-8c34-150abb3e042a",
+						"showChannel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowTicketInformationChatBot",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\":\"5515998566622\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7141066a-8152-41d4-b429-f47e2068ee27/showticketchatbot",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7141066a-8152-41d4-b429-f47e2068ee27",
+						"showticketchatbot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowAllTicketInformation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\":\"5515998566622\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7141066a-8152-41d4-b429-f47e2068ee27/showallticket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7141066a-8152-41d4-b429-f47e2068ee27",
+						"showallticket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowAllMessages",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE3MDU3NjcxNDksImV4cCI6MTc2ODgzOTE0OX0.2RgbDllXF9p4QX-lYDsGNWtxK0XVtVI25_ECvFgA8EQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ticket\":\"123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3100/v2/api/external/7141066a-8152-41d4-b429-f47e2068ee27/showAllMessages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3100",
+					"path": [
+						"v2",
+						"api",
+						"external",
+						"7141066a-8152-41d4-b429-f47e2068ee27",
+						"showAllMessages"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRJZCI6MSwicHJvZmlsZSI6ImFkbWluIiwic2Vzc2lvbklkIjoxLCJpYXQiOjE2MTYwNDAwNDgsImV4cCI6MTY3OTExMjA0OH0.gDoVv_JDnrPLFLAzJgwpz_Cwd2JGhzeCUz2ILQ2uRRA",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BaseUrl",
+			"value": ""
+		}
+	]
+}
